@@ -1,5 +1,11 @@
 # oci-datascience-setup-steps
 
+## Sections
+- [Identity and Access Management Setup](#identity-and-access-management)
+- [Data Science Notebook Session Setup](#data-science-notebook-session-setup)
+- [Verify Network Connectivity to Object Storage](#verify-network-connectivity-to-object-storage)
+- [Verify Network Connectivity to Autonomous Data Warehouse (ADW)](#verify-network-connectivity-to-autonomous-data-warehouse-adw)
+
 ### Identity and Access Management Setup
 1. Create a Compartment to isolate Data-Science-related resources. A compartment is a logical container to which a tenancy administrator can grant Groups and Oracle resources access. Copy the Compartment OCID and paste it onto a text editor where it can be easily accessed in a later step.
 
