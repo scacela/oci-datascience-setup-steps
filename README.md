@@ -45,8 +45,8 @@ We will verify network connectivity to ADW by importing a dataset from and expor
 - If you do not have a dataset in your ADW ADMIN schema, and wish to test this connectivity, feel free to use this [Iris](https://objectstorage.us-ashburn-1.oraclecloud.com/p/PjnbwhhdixsEAnKuWJJ5a5YdcUgXBK0X8wvkbRJOQAstqJD9Ov1yUDEYfSv8-H7Z/n/orasenatdpltintegration03/b/samcac/o/Iris.csv) dataset.
 
 1. Open your Notebook Session
-2. Open the Launcher with `File > New Launcher`, and select `Environment Explorer`. Locate the conda environment with the slug name `dataexpl_p3_cpu_v2`, and copy the installation command includd in the tile for this Conda Environment.
-3. Open Terminal, paste the installation command into the command prompt in Terminal, and press Enter to install the Conda Environment, following the prompts with default responses.
+2. Open the Launcher with `File > New Launcher`, and select `Environment Explorer`. Locate the Conda Environment with the slug name `dataexpl_p3_cpu_v2`, and copy the installation command includd in the tile for this Conda Environment.
+3. Open Terminal with `File > New Terminal`, paste the installation command into the command prompt in Terminal, and press Enter to install the Conda Environment, following the prompts with default responses.
 4. Once the Conda Environment installation has completed, run the following command to install a notebook template, which we will use to connect to ADW:
 ```
 wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/VwIIUvgakVY3mmn-0Et-LHFp5R2L6961-CJKuuwT2G6rbrtgt5GD5djeWzkoW36R/n/orasenatdpltintegration03/b/samcac/o/ImportExport_ADW.ipynb
