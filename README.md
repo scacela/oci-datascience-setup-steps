@@ -1,5 +1,5 @@
 # oci-datascience-setup-steps
-Configure your Oracle Cloud Infrastructure (OCI) Tenancy for Data Science usage.
+Configure your Oracle Cloud Infrastructure (OCI) Tenancy for Data Science Platform usage.
 ## Sections
 - [Identity and Access Management Setup](#identity-and-access-management)
 - [Data Science Notebook Session Setup](#data-science-notebook-session-setup)
