@@ -16,8 +16,8 @@ Configure your Oracle Cloud Infrastructure (OCI) Tenancy for Data Science Platfo
 ```
 Allow any-user to manage data-science-family in compartment id COMPARTMENT_ID where all{any{request.principal.type=‘datasciencenotebooksession’, request.principal.type=‘datasciencejobrun’}, request.principal.compartment.id=‘COMPARTMENT_ID’}
 
-Allow service datascience to use virtual-network-family in compartment id 
-Allow service FaaS to use virtual-network-family in compartment id 
+Allow service datascience to use virtual-network-family in compartment id COMPARTMENT_ID
+Allow service FaaS to use virtual-network-family in compartment id COMPARTMENT_ID
 
 Allow any-user to use object-family in compartment id COMPARTMENT_ID where all{any{request.principal.type=‘datasciencenotebooksession’, request.principal.type=‘datasciencejobrun’}, request.principal.compartment.id=‘COMPARTMENT_ID’}
 
