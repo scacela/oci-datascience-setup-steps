@@ -11,7 +11,7 @@ Configure your Oracle Cloud Infrastructure (OCI) Tenancy for Data Science Platfo
 
 2. Create a Group intended for those who should be able to access resources within the Compartment you created in `Step 1.`, and add users to the Group. Copy the Group Name and paste it onto a text editor where it can be easily accessed in a later step.
 
-3. Create a Policy object within the parent Compartment of the Compartment you created in `Step 1`. Replace all instances of `COMPARTMENT_ID` and `GROUP_NAME` with the Compartment OCID and Group Name you pasted into your text editor, respectively.
+3. Create a Policy object within the parent Compartment of the Compartment you created in `Step 1.`. Replace all instances of `COMPARTMENT_ID` and `GROUP_NAME` with the Compartment OCID and Group Name you pasted into your text editor, respectively.
 
 ```
 Allow any-user to manage data-science-family in compartment id COMPARTMENT_ID where all{any{request.principal.type='datasciencenotebooksession', request.principal.type='datasciencejobrun'}, request.principal.compartment.id='COMPARTMENT_ID'}
