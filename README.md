@@ -14,15 +14,15 @@ Configure your Oracle Cloud Infrastructure (OCI) Tenancy for Data Science Platfo
 3. Create a Policy object within the parent Compartment of the Compartment you created in `Step 1`. Replace all instances of `COMPARTMENT_ID` and `GROUP_NAME` with the Compartment OCID and Group Name you pasted into your text editor, respectively.
 
 ```
-Allow any-user to manage data-science-family in compartment id COMPARTMENT_ID where all{any{request.principal.type=‘datasciencenotebooksession’, request.principal.type=‘datasciencejobrun’}, request.principal.compartment.id=‘COMPARTMENT_ID’}
+Allow any-user to manage data-science-family in compartment id COMPARTMENT_ID where all{any{request.principal.type='datasciencenotebooksession', request.principal.type='datasciencejobrun'}, request.principal.compartment.id='COMPARTMENT_ID'}
 
 Allow service datascience to use virtual-network-family in compartment id COMPARTMENT_ID
 
 Allow service FaaS to use virtual-network-family in compartment id COMPARTMENT_ID
 
-Allow any-user to use object-family in compartment id COMPARTMENT_ID where all{any{request.principal.type=‘datasciencenotebooksession’, request.principal.type=‘datasciencejobrun’}, request.principal.compartment.id=‘COMPARTMENT_ID’}
+Allow any-user to use object-family in compartment id COMPARTMENT_ID where all{any{request.principal.type='datasciencenotebooksession', request.principal.type='datasciencejobrun'}, request.principal.compartment.id='COMPARTMENT_ID'}
 
-Allow any-user to use autonomous-database-family in compartment id COMPARTMENT_ID where all{any{request.principal.type=‘datasciencenotebooksession’, request.principal.type=‘datasciencejobrun’}, request.principal.compartment.id=‘COMPARTMENT_ID’}
+Allow any-user to use autonomous-database-family in compartment id COMPARTMENT_ID where all{any{request.principal.type='datasciencenotebooksession', request.principal.type='datasciencejobrun'}, request.principal.compartment.id='COMPARTMENT_ID'}
 
 Allow group GROUP_NAME to manage all-resources in compartment id COMPARTMENT_ID
 ```
